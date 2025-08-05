@@ -1166,6 +1166,20 @@ abstract final class Colors {
   });
   static const int _tealPrimaryValue = 0xFF009688;
 
+    static const MaterialColor avtoapp = MaterialColor(_avtoappPrimaryValue, <int, Color>{
+    50: Color(0x05382A86),
+    100: Color(0x10382A86),
+    200: Color(0x20382A86),
+    300: Color(0x30382A86),
+    400: Color(0x40382A86),
+    500: Color(0x50382A86),
+    600: Color(0x60382A86),
+    700: Color(0x70382A86),
+    800: Color(0x80382A86),
+    900: Color(_avtoappPrimaryValue),
+  });
+  static const int _avtoappPrimaryValue = 0xFF382A86;
+
   /// The teal accent color and swatch.
   ///
   /// ![](https://flutter.github.io/assets-for-api-docs/assets/material/Colors.teal.png)
